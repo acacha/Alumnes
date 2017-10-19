@@ -16,7 +16,7 @@ La password actual està al correu que us he enviat.
 sudo adduser sergi
 sudo usermod -a -G forge,sudo,www-data sergi
 sudo cp -r ~/.ssh/ /home/sergi/
-sudo chown -R sergi:sergi ~/.ssh/ /home/sergi/
+sudo chown -R sergi:sergi /home/sergi/.ssh
 ```
 
 Podeu deixar com a paraula de pas inicial per al meu usuari la que teniu al email. Busqueu-me algun moment a classe per tal 
@@ -26,4 +26,16 @@ Instal·leu els locales en català:
 
 ```
 $ sudo apt-get install language-pack-ca && sudo locale-gen ca_ES.UTF-8
+```
+
+Actualitzeu el servidor:
+
+```
+sudo apt-get update && sudo apt-get dist-upgrade
+```
+
+També és interessant un paquet com molly-guard per evitar apagades involuntaries del servidor:
+
+```
+sudo apt-get install molly-guard
 ```

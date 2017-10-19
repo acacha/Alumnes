@@ -1,3 +1,16 @@
+# Abans que res
+
+Llegiu fitxer InstalacióSite.md i recordeu de fer tots els passos:
+
+```
+composer install
+yarn
+cp .env.example .env
+php artisan key:generate
+```
+
+sinó normal que no funcioni.
+
 # Projectes que utilitzen altres projectes amb studio
 
 Al instal·lar un projecte en explotació heu de reproduir el mateix que teniu el local.
@@ -55,3 +68,50 @@ Afegiu el paquet Laravel Dusk com un paquet que no s'ha d'autodescobrir a compos
     },
 ```
 
+# Error 500
+
+Consulteu els fitxer de log:
+
+```
+cd VOSTRE_PROJECTE
+tail -f storage/logs/laravel.log
+```
+
+i també podeu mirar:
+
+```
+tail -f /var/log/nginx/NOM_DEL_VOSTRE_DOMINI.com-error.log error
+```
+
+És molt possible error sigui:
+
+```
+production.ERROR: No application encryption key has been specified
+```
+
+Us heu deixat executar:
+
+```
+php artisan key:generate
+```
+
+Després de:
+
+```
+cp .env.example .env
+
+Exemple:
+```
+tail -f /var/log/nginx/events.sergitur.2dam.iesebre.com-error.log error
+```
+
+Aquest fitxer de log l'heu posat valtros a la configuració del site (exemple):
+
+```
+cat /etc/nginx/sites-available/events.sergitur.2dam.iesebre.com
+...
+    error_log  /var/log/nginx/events.sergitur.2dam.iesebre.com-error.log error;
+...
+```
+
+ 

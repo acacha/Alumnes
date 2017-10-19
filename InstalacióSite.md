@@ -34,12 +34,35 @@ cp .env.example .env
 ```
 
 Modifiqueu els valors:
+- APP_ENV = production
+- APP_DEBUG = false
+- Configureu la base de dades mysql o sqlite i creu la base de dades sqlite o Mysql (el que pertoqui)
+- Configureu altres serveis com EMAIL, CACHE, SESSIó o el que convingui/utilitzi el projecte
+
+Altres no tant importants però que potser voleu canviar:
+- APP_NAME
+
+Penseu en posar també els valors que no siguin secrets a .env.example o .env.example.production
+
+Us cal base de dades sqlite:
+
+```
+touch database/database.sqlite
+```
+
+Executeu les migracions i els seeds:
+
+```
+php artisan migrate:fresh --seed
+```
 
 Creu clau de seguretat:
 
 ```
 php artisan key:generate
 ```
+
+Executeu els test per comprovar tot està ok.
 
 Consulteu el fitxer Troubleshooting si teniu problemes.
 
@@ -52,8 +75,12 @@ git clone https://github.com/acacha/events
 cd events.sergitur.2dam.iesebre.com
 composer install
 yarn
+cp .env.example .env
+php artisan key:generate
+touch database/database.sqlite
+php artisan migrate:fresh --seed
+phpunit
 ```
-
 
 ## Configuració Nginx:
 

@@ -9,7 +9,7 @@ cp .env.example .env
 php artisan key:generate
 ```
 
-sinó normal que no funcioni.
+sinó normal que no funcioni. I NO OBLIDEU ADAPTAR FITXER .env!!!!!!
 
 # Projectes que utilitzen altres projectes amb studio
 

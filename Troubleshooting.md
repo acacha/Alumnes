@@ -68,6 +68,15 @@ Afegiu el paquet Laravel Dusk com un paquet que no s'ha d'autodescobrir a compos
     },
 ```
 
+# Problemes de permisos amb Git
+
+Executeu:
+
+```
+git config --global user.name "Example Surname"
+git config --global user.email "your.email@gmail.com"
+```
+
 # Error 500
 
 Consulteu els fitxer de log:
@@ -113,5 +122,3 @@ cat /etc/nginx/sites-available/events.sergitur.2dam.iesebre.com
     error_log  /var/log/nginx/events.sergitur.2dam.iesebre.com-error.log error;
 ...
 ```
-
- 

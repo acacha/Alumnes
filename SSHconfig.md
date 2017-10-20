@@ -1,7 +1,7 @@
 
 ## Config SSH
 
-Editeu el fitxer '''~/.ssh/config''' i afegiu:
+Editeu el fitxer ***~/.ssh/config*** i afegiu:
 
 ```
 Host nomhostdesitgeu

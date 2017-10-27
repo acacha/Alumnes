@@ -11,7 +11,7 @@ $ cat .gitconfig
 	email = ergare.17@gmail.com
 ```
 
-#Clau SSH
+## Clau SSH
 
 Poseu:
 

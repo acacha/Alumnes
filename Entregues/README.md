@@ -13,6 +13,7 @@ Projecte del professor:
 OBSOLETS:
 - https://github.com/acacha/TaskTDD: Exemple de com fer Test Driven Development -> Acabem fent a tot arreu
 - https://github.com/acacha/events_old: projecte sintesi obsolet
+- https://github.com/acacha/VueTinkering: integrat a tasques 
 
 MP9:
 - Aprenent PHP https://github.com/acacha/PHPTinkering

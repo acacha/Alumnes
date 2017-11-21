@@ -1,5 +1,21 @@
 Gestionades per arsys com a subdominis DNS de iesebre.com
 
+- https://www.arsys.net/clients
+- maninfo@iesebre.com
+- Password als docs Github maninfo
+
+## Acacha.org
+
+DNS gestionades per OVH:
+
+https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.es/
+- User: ts17420-ovh
+
+## Sergi Tur
+
+- sergitur.2dam.iesebre.com
+- 146.185.164.54
+
 ## Sergi Baucells
 
 - sergibaucells.2dam.iesebre.com

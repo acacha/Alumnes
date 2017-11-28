@@ -20,25 +20,37 @@ OBSOLETS:
 - Aprenent PHP https://github.com/acacha/PHPTinkering
 - Aprenent PHP creat el nostre propi framework (evolució anterior): https://github.com/acacha/PHPlearning
 
-# MP7 
+# MP7
 
-Packagist: Hello world paquet Packagist:
-- https://github.com/acacha/ComposerPackagistTest
-- https://github.com/acacha/ComposerPackagist
-
-Paquets NPM
-- Projecte NpmPackagesTinkering, no és projecte PHP no cal servidor PHP
-
-Es pot publicar amb GithubPages o Surge
+## Paquet Laravel
 
 Paquets PHP i Laravel: esquelet bàsic per crear un paquet
 - https://github.com/acacha/skeleton_test
 - https://github.com/acacha/skeleton
+ 
+També ho fem al crèdit de sintesi.
+
+## Packagist: Hello world paquet Packagist
+
+Projecte exemple com publicar paquet Packagist. Consulteu article a la wiki
+
+- https://github.com/acacha/ComposerPackagistTest
+- https://github.com/acacha/ComposerPackagist
 
 Packagist:
 Cal empaquetar els projectes (a més a més dels hewllo world):
 - Tasks
 - Paquet Crèdit Sintesi
+
+## NPMJS i node.js, webpack, label etc
+
+- Projecte NpmPackagesTinkering, no és projecte PHP no cal servidor PHP
+
+Es pot publicar amb GithubPages o Surge (TODO veurem a classe)
+
+Projecte Hello world a https://www.npmjs.com
+
+- https://www.npmjs.com/package/acacha-helloworld-package
 
 ## MP7 Comandes Laravel amb Testos
 

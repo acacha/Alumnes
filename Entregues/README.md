@@ -38,7 +38,7 @@ Projecte exemple com publicar paquet Packagist. Consulteu article a la wiki
 - https://github.com/acacha/ComposerPackagist
 
 Packagist:
-Cal empaquetar els projectes (a més a més dels hewllo world):
+Cal empaquetar els projectes (a més a més dels hello world):
 - Tasks
 - Paquet Crèdit Sintesi
 
@@ -50,7 +50,10 @@ Es pot publicar amb GithubPages o Surge (TODO veurem a classe)
 
 Projecte Hello world a https://www.npmjs.com
 
-- https://www.npmjs.com/package/acacha-helloworld-package
+- NPMJS: https://www.npmjs.com/package/acacha-helloworld-package
+Projectes Github:
+-https://github.com/acacha/NPMHelloWorldPackageTest
+-https://github.com/acacha/NPMHelloWorldPackageTest
 
 ## MP7 Comandes Laravel amb Testos
 
